@@ -3,9 +3,9 @@ a {text-decoration: none; color: white;}
 nav {background-color: green; position: fixed; width: 100%;}
 .list {list-style-type: none; display: flex;}
 .line {margin-right: 3%; font-size: 150%;}
-.dropdown-c {background-color: #f6f6f6; position: absolute; min-width: 6%;box-shadow: 5px 5px 15px rgba(0,0,0,0.5); display: none}
-.dropdown:hover .dropdown-c{display: block ;}
-.dropdown-h { 
+.category-c {background-color: #f6f6f6; position: absolute; min-width: 6%;box-shadow: 5px 5px 15px rgba(0,0,0,0.5); display: none}
+.category:hover .category-c{display: block ;}
+.category-h { 
     background-color: #f6f6f6;
     border: none;
     color: black;
@@ -14,7 +14,7 @@ nav {background-color: green; position: fixed; width: 100%;}
     font-size: 16px;
     margin: 4px 2px;
     transition: 0.3s;}
-.dropdown-h:hover { 
+.category-h:hover { 
     background-color: #3e8e41;
     color: white;}
 
